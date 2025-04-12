@@ -1,0 +1,367 @@
+h1{
+    text-align: center;
+    color: #ffffff;
+    
+}
+html{
+    background-color: #000000;
+}
+#adress {
+    color:rgb(255, 255, 255);
+    
+    text-align: center ;
+    display: block;
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;  
+}
+.center-container {
+    display: flex;
+    justify-content: center;  /* yatay ortalama */
+    align-items: center;      /* dikey ortalama */
+    height: 100vh;            /* tüm ekran yüksekliği */
+}
+
+#murder1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+    
+   
+    
+    
+    
+}
+
+
+#murder2{
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#murder3 {
+    color: rgb(255, 253, 253);
+    display: block;
+    text-align: center;
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#murder4{
+    color: black;
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10;
+}
+#birth1 {
+    
+    color: black;
+    display: block;
+    text-align: center;
+    font: bold;   
+}
+#birth2 {
+    color: black;
+    display: block;
+    text-align: center;
+    font: bold;
+}
+#birth3{
+    color: black;
+    display: block;
+    text-align: center;
+    font: bold;
+}
+#birth4{
+    color:black ;
+    display: block;
+    text-align: center;
+    font: bold;   
+}
+#back1 {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    left: 50%; /* ekranın %50'si kadar sola koy */
+    transform: translateX(-50%); /* kendi genişliğinin yarısı kadar sola kaydır, böylece ortalanır */
+    padding: 10px 20px;
+    background-color: black;
+    
+    
+}
+
+
+#back2{
+    color: #850101;
+    display: block;
+    text-align: center;
+}
+#back3{
+    color: #850101;
+    display: block;
+    text-align: center;
+}
+#back4{
+    color: #850101;
+    display: block;
+    text-align: center;
+}
+#back5{
+    color: #850101;
+    display: block;
+    text-align: center;
+}
+#image1{
+    width: 350px;
+    height: 300px;
+    transform: scaleX(-1);
+    border: 5px solid #850101;
+    border-width: 10px 20px 10px 20px
+    
+}
+#private{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    text-align: center;
+}
+#age{
+    color: #ffffff;
+    
+}
+#adress{
+    color:#ffffff;
+}
+#name{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+#footer1{
+
+    font-family: monospace;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 0; /* Sayfanın en altına */
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Transparan */
+    font-size: 8px; 
+}
+
+.image-container {
+    text-align: center;
+  }
+  
+  .image-container {
+    text-align: center;      /* Ortalamayı sağlar */
+    padding-top: 60px;       /* Yukarıdan boşluk */
+    padding-bottom: 30px;    /* Aşağıdan boşluk */
+  }
+  
+  #image2 {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;       /* Soldan boşluk */
+    margin-right: 10px;      /* Sağdan boşluk */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+ #header1{
+    font-family: monospace;
+    
+ }
+  
+ #cansee {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 64px;
+    color: white;
+    padding-top: 10px;      
+    padding-bottom: 0px;
+    
+   
+    letter-spacing: 3px;
+    
+}
+
+
+
+#m1{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m2{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m3{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m4{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+  
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m5{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m6{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m6{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m7{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#m8{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m9{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m10{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m11{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m12{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+   
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m13{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    text-align: center;
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#m14{
+    color: rgba(255, 255, 255, 0.229);
+    display: block;
+    text-align: left;
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+
+}
